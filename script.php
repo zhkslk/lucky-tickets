@@ -68,4 +68,4 @@ class LuckyTicket {
 }
 
 $luckyTickets = new LuckyTicket();
-echo $luckyTickets->count();
+echo 'Number of lucky tickets: ' . $luckyTickets->count();
